@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.CSS">
+    <link rel="shortcut icon" href="3210053.png" type="image/x-icon">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora online</h1>
+    <section>
+        <div>
+            <input type="number" name="disp" id="disp" disabled ="">
+        </div>
+
+        <div id="linha1">
+            <button type="button" id="B7" onclick="adicionarNumero('B7')">7</button>
+            <button type="button" id="B8" onclick="adicionarNumero('B8')">8</button>
+            <button type="button" id="B9" onclick="adicionarNumero('B9')">9</button>
+            <button type="button" id="multiplicacao" onclick="operacao('multiplicacao')"> x </button>
+        </div>
+        <div id="linha2">
+            <button type="button" id="B4" onclick="adicionarNumero('B4')">4</button>
+            <button type="button" id="B5" onclick="adicionarNumero('B5')">5</button>
+            <button type="button" id="B6" onclick="adicionarNumero('B6')">6</button>
+            <button type="button" id="divisao" onclick="operacao('divisao')"> ÷ </button>
+        </div>
+        <div id="linha3">
+            <button type="button" id="B1" onclick="adicionarNumero('B1')">1</button>
+            <button type="button" id="B2" onclick="adicionarNumero('B2')">2</button>
+            <button type="button" id="B3" onclick="adicionarNumero('B3')">3</button>
+            <button type="button" id="adicao" onclick="operacao('adicao')"> + </button>
+        </div>
+        <div id="linha4">
+            <button type="button" id="AC" onclick="limpar()">AC</button>
+            <button type="button" id="B0" onclick="adicionarNumero('B0')">0</button>
+            <button type="button" id="IGUAL" onclick="resultado()">=</button>
+            <button type="button" id="subtracao" onclick="operacao('subtracao')"> - </button>
+        </div>
+    </section>
+
+    <a href="https://www.linkedin.com/in/emerson-andrey-597784249/" target="_blank"><em>Criador</em></a>
+
+    <script src="codigo.js"></script>
+    
+</body>
+</html>
