@@ -43,21 +43,18 @@ function operacao(idOperacao){
     switch(idOperacao){
         case 'multiplicacao':
             operador = 'multiplicacao'
-            display.value = ''
             break;
         case 'divisao':
             operador = 'divisao'
-            display.value = ''
             break;
         case 'adicao':
             operador = 'adicao'
-            display.value = ''
             break;
         case 'subtracao':
             operador = 'subtracao'
-            display.value = ''
             break;
     }
+    display.value = ''
 }
 
 function resultado(){
